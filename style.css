@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin: 0 auto;
@@ -16,12 +21,7 @@ a:hover {
   text-decoration: underline;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
-.wc {
+.white {
   color: white;
 }
 
@@ -116,15 +116,15 @@ global-nav-bag {
   align-items: center;
 }
 
-#iphone-15-pro {
+.iphone-15-pro {
   background-image: url(https://www.apple.com/v/home/bl/images/heroes/iphone-15-pro/hero_iphone15pro__i70z9oz3hj2i_large_2x.jpg)
 }
 
-#iphone-15 {
+.iphone-15 {
   background-image: url(https://www.apple.com/v/home/bl/images/heroes/iphone-15/hero_iphone15_announce__uuemlcwczn6u_medium_2x.jpg)
 }
 
-#apple-vision-pro {
+.apple-vision-pro {
   background-image: url(https://www.apple.com/v/home/bl/images/heroes/apple-vision-pro/hero_apple_vision_pro_avail__ecthwv10twsy_large_2x.jpg)
 }
 
@@ -164,27 +164,27 @@ global-nav-bag {
   margin: 0;
 }
 
-#watch {
+.watch {
   background-image: url(https://www.apple.com/v/home/bl/images/promos/apple-watch-series-9/promo_apple_watch_series_9_order__b3u85rm9zf6u_medium_2x.jpg)
 }
 
-#macbook {
+.macbook {
   background-image: url(https://www.apple.com/v/home/bl/images/promos/macbook-air-m3/promo_macbook_air_m3__e43jegok3wuq_medium_2x.jpg)
 }
 
-#ipad {
+.ipad {
   background-image: url(https://www.apple.com/v/home/bl/images/promos/ipad/promo_ipad__fioegapg12qi_medium_2x.jpg)
 }
 
-#airpods {
+.airpods {
   background-image: url(https://www.apple.com/v/home/bl/images/promos/airpods-pro/promo_airpods_pro__erhb1guhr1si_medium_2x.jpg)
 }
 
-#card {
+.card {
   background-image: url(https://www.apple.com/v/home/bl/images/promos/apple-card/tile__cauwwcyyn9hy_medium_2x.jpg)
 }
 
-#trade-in {
+.trade-in {
   background-image: url(https://www.apple.com/v/home/bl/images/promos/iphone-tradein/promo_iphone_tradein__bugw15ka691e_medium_2x.jpg)
 }
 
@@ -244,19 +244,20 @@ footer {
   padding: 1rem 0;
 }
 
-.foot-footer-first-line {
+.foot-footer-first-line-container {
   display: flex;
   justify-content: space-between;
 }
 
 .foot-footer-links {
   display: flex;
+  
 }
 
-.foot-footer-links a {
+.foot-footer-links-item {
   color: rgba(0,0,0,0.9);
   padding-right: 0.5rem;
   border-right: 1px solid rgba(0,0,0, 0.5);
   margin-right: 0.5rem;
-  line-height: 30px;
+/*   line-height: 30px; */
 }
